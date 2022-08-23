@@ -1,9 +1,80 @@
+.container{
+    background-color: rgba(79, 195, 247); /* rgba(0, 147, 196, 1);   */
+    font-size: 100%;
+    color: #1b262c;  
+    margin: 0;
+   
+}
+img{
+object-fit: contain;
+      height: 300px;
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-radius:300px;
+}
+   #container{   
+   background-color: rgba(0, 147, 196, 1) ;
+  
+   position: relative;
+   display: inline-block;
+   text-align: center;
+}
+#container1{   
+    background-color: rgba(79, 195, 247) ;
+    /*  */ 
+    
+   display: inline-block;
+   position: relative;
+   
+   text-align: center;
+ }
 
-/*
-Arriba del logo
-/*/
+ 
+ body{
+      
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
 
-.{
- background-color:    0093C4;
- background-color: 4FC3F7;
+   .button1{
+    background-color: rgba(139, 246, 255, 1);
+    font-family: serif  semi-bold;
+    font-weight:700; /*negrita*/
+    color:rgb(13, 13, 13);
+   /*  color:rgba(139, 246, 255, 1);*/
+    border-radius: 2px;
+    border: 2px solid rgba(139, 246, 255, 1);
+    width: 50%;
+    height: 40px;
+    margin: 5px;
+
+   }
+
+.description #text-muted{
+    color:#e6ebee;
+    margin: 100px;
+}
+
+   .titulo {
+    font-size: 250%;
+    color:#bbe1fa;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
 }
