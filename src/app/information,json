@@ -1,0 +1,24 @@
+
+
+{
+"New Device" : [ 
+{ 
+"Name ": "adf",
+" AWS Bucket" : "SDFD",
+"Nets ": "SDFD",
+"Coller ": " Si /No",
+"Heather":  "Si /No",
+"Filter": " Si /No",
+"Location ": "Escobedo, Nuevo Leon"
+},
+{ 
+    "Name ": "adf",
+    " AWS Bucket" : "SDFD",
+    "Nets ": "SDFD",
+    "Coller ": " Si /No",
+    "Heather":  "Si /No",
+    "Filter": " Si /No",
+    "Location ": "Apodaca, Camino al Fresno 3437B"
+    }
+] }
+

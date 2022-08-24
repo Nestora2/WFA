@@ -80,3 +80,8 @@ object-fit: contain;
     transform: translate(-50%, -50%);
     color: red;
 }
+
+.link { color: #f8efef;
+    text-decoration: none;
+ } /* CSS link color (red) */
+.link:hover { color: #00FF00; }

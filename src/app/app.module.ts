@@ -7,6 +7,7 @@ import { DeviceListComponent } from './device-list/device-list.component';
 import { AddDeviceComponent } from './add-device/add-device.component';
 import { DeviceDetailsComponent } from './device-details/device-details.component';
 import { NotificationsComponent } from './notifications/notifications.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NotificationsComponent } from './notifications/notifications.component'
     NotificationsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

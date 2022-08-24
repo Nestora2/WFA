@@ -78,3 +78,7 @@ object-fit: contain;
     transform: translate(-50%, -50%);
     color: red;
 }
+
+.link { 
+    text-decoration: none
+ }

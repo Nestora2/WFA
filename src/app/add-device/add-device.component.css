@@ -1,0 +1,22 @@
+.button1{
+    background-color: rgb(42, 154, 182);
+    font-family: serif  semi-bold;
+    font-weight:500; /*negrita*/
+    color:rgb(0, 0, 0);
+   /*  color:rgba(139, 246, 255, 1);*/
+    border-radius: 2px;
+    border: 2px solid rgb(10, 82, 104);
+    width: 50%;
+    height: 40px;
+    margin: 5px;
+
+   }
+
+   .btn  #dropdown-toggle{
+    border: 2px solid rgba(139, 246, 255, 1);
+   
+   }
+
+   .link { 
+    text-decoration: none
+ }
