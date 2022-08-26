@@ -1,0 +1,17 @@
+.link { 
+    text-decoration: none
+ }
+
+ .button1{
+    background-color: rgba(0, 147, 196, 1);
+      font-family: serif  semi-bold;
+    font-weight:700; /*negrita*/
+    color:rgb(13, 13, 13);
+   /*  color:rgba(139, 246, 255, 1);*/
+    border-radius: 2px;
+    border: 2px solid rgba(139, 246, 255, 1);
+    width: 50%;
+    height: 40px;
+    margin: 5px;
+
+   }

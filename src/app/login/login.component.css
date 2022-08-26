@@ -13,21 +13,14 @@ object-fit: contain;
     display: inline-block;
     text-align: center;
     border-radius:300px;
+    background-color: aliceblue;
 }
-   #container{   
-   background-color: rgba(0, 147, 196, 1) ;
   
-   position: relative;
-   display: inline-block;
-   text-align: center;
-}
 #container1{   
     background-color: rgba(79, 195, 247) ;
     /*  */ 
-    
    display: inline-block;
    position: relative;
-   
    text-align: center;
  }
 
@@ -63,21 +56,10 @@ object-fit: contain;
     color:#bbe1fa;
     text-align: center;
     margin-bottom: 20px;
+    background-color: rgba(0, 147, 196, 1);
 }
 
-.texto-encima{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: red;
-}
-.centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: red;
-}
+
 
 .link { 
     text-decoration: none

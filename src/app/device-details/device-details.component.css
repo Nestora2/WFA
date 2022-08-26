@@ -1,4 +1,39 @@
 .link { 
     text-decoration: none;
-    color: #f8efef;
+    color: black;
  }
+
+ .button1{
+    background-color: rgba(139, 246, 255, 1);
+    font-family: serif  semi-bold;
+    font-weight:500; /*negrita*/
+    border-radius: 2px;
+     width: 40%;
+    height: 40px;
+    margin: 5px;
+
+   }
+   .button2{ 
+      /*Deactivate*/
+      background-color: gray;
+      font-family: serif  semi-bold;
+      font-weight:500; /*negrita*/
+      color:#bbe1fa ;
+         border-radius: 2px;
+  width: 40%;
+      height: 40px;
+      margin: 5px;
+  
+     }
+
+     .progress-bar{
+      background-color: rgba(139, 246, 255, 1);
+     }
+
+     .text{
+      color:rgba(182, 181, 181, 1);     
+      margin-left:10;
+      padding:0;
+      margin-right:0px;
+      
+     }

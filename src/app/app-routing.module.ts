@@ -9,12 +9,21 @@ import { LoginComponent } from './login/login.component';
 import { DeviceListComponent } from './device-list/device-list.component';
 
 
+import { CreateAccountComponent} from './create-account/create-account.component';
+import { IngresaClaveComponent } from './ingresa-clave/ingresa-clave.component';
+
+
+
+
 const routes: Routes = [
   { path: 'deviceDetail', component: DeviceDetailsComponent} ,
  { path: 'addDevice', component: AddDeviceComponent},
   { path: 'login', component: LoginComponent},
   {path: 'notifications', component: NotificationsComponent },
   {path: 'deviceList', component: DeviceListComponent },
+  
+  {path: 'iniciaSesion', component: IngresaClaveComponent },
+  {path: 'createAccount', component: CreateAccountComponent },
 
  // { path: '**', component: LoginComponent}, // Aqui sera a donde regresara despues de presionar simbolo de home
 ];

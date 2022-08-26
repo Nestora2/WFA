@@ -51,13 +51,14 @@ object-fit: contain;
     border: 2px solid rgba(139, 246, 255, 1);
     width: 50%;
     height: 40px;
-    margin: 5px;
+    margin: 15px;
 
    }
 
 .description #text-muted{
     color:#e6ebee;
     margin: 100px;
+    
 }
 
    .titulo {
@@ -85,3 +86,8 @@ object-fit: contain;
     text-decoration: none;
  } /* CSS link color (red) */
 .link:hover { color: #00FF00; }
+
+footer{
+    background-color: rgba(79, 195, 247) ;
+   
+}

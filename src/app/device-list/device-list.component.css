@@ -1,24 +1,61 @@
 .button1{
-    background-color: rgb(42, 154, 182);
+    background-color: rgba(139, 246, 255, 1);
     font-family: serif  semi-bold;
-    font-weight:500; /*negrita*/
-    color:rgb(0, 0, 0);
-   /*  color:rgba(139, 246, 255, 1);*/
+    font-weight:500; /*negrita*/  
+   
     border-radius: 2px;
-    border: 2px solid rgb(10, 82, 104);
-    width: 50%;
+    border: 2px solid rgba(139, 246, 255, 1);
+    width: 40%;
     height: 40px;
     margin: 5px;
-
+ border-color: none;
+ outline: none;
    }
+   .button2{ 
+      /*Deactivate*/
+      background-color: gray;
+      
+    border-radius: 2px;
+    border: 2px solid gray;
+      font-family: serif  semi-bold;
+      font-weight:500; /*negrita*/
+      border-radius: 2px;
+      width: 40%;
+      height: 40px;
+      margin: 5px;
+  
+ border-color: none;
+     }
 
-   .btn  #dropdown-toggle{
-    border: 2px solid rgba(139, 246, 255, 1);
    
-   }
+     .btnAdd{
+        background-color: rgb(42, 154, 182);
+    border-radius: 800px;
+    border: 0px solid rgb(42, 154, 182);
+        font-family: serif  semi-bold;
+        font-weight:500; /*negrita*/
+        color:none;
+       /*  color:rgba(139, 246, 255, 1);*/
+        border-radius: 2px;
+       /* border: 2px solid none; */
+        width: 50%;
+        height: 40px;
+        margin: 5px;
+    color: aliceblue;
+       }
 
-   
-.link { color: #f8efef;
+
+.link {
+    color: #161515;
     text-decoration: none
  } /* CSS link color (red) */
-.link:hover { color: #00FF00; } /* CSS link hover (green) */
+
+ .link2 {
+    color: #f4eded;
+    text-decoration: none
+ } 
+
+ .badge {
+background-color: none;
+color: #201d1d;
+ }

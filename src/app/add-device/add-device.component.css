@@ -17,6 +17,23 @@
    
    }
 
-   .link { 
-    text-decoration: none
+   .link { /*Activate*/
+    text-decoration: none;
+    color:aliceblue;
+ }
+
+ .link2 { /*Deactivate*/
+    text-decoration: none;
+    color:black;
+ }
+
+ .button2{  /*Deactivate*/
+    background-color: gray;
+    font-family: serif  semi-bold;
+    font-weight:500; /*negrita*/
+    color:#bbe1fa ;
+       border-radius: 2px;
+width: 40%;
+    height: 40px;
+    margin: 5px;
  }
